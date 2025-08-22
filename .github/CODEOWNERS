@@ -1,0 +1,41 @@
+# CODEOWNERS file for messaging-frontend-665
+# Global owners - will be requested for all PRs
+* @Armor-test/squad-ux @Armor-test/dept-reporting @Armor-test/dept-data
+
+# Directory ownership
+/hooks/ @Armor-test/dept-test @Armor-test/squad-search @Armor-test/dept-logging
+/migrations/ @Armor-test/grp-payments @Armor-test/dept-logging
+/pages/ @Armor-test/dept-release @Armor-test/grp-reporting @Armor-test/squad-database
+/data/ @Armor-test/unit-governance @Armor-test/squad-performance
+/helpers/ @Armor-test/unit-governance @Armor-test/team-governance @Armor-test/grp-payments
+/utils/ @Armor-test/team-security @Armor-test/dept-test @Armor-test/dept-logging
+/vendor/ @Armor-test/squad-ux @Armor-test/dept-release
+/scripts/ @Armor-test/dept-api @Armor-test/squad-ux
+/middleware/ @Armor-test/grp-reporting @Armor-test/team-security
+/src/ @Armor-test/squad-qa @Armor-test/dept-reporting @Armor-test/dept-automation
+/app/ @Armor-test/squad-ml @Armor-test/team-reporting
+/components/ @Armor-test/grp-search @Armor-test/team-security
+/build/ @Armor-test/squad-reporting @Armor-test/grp-ui @Armor-test/team-security
+
+# File type ownership
+*.css @Armor-test/squad-tooling @Armor-test/dept-logging @Armor-test/team-notifications
+*.yml @Armor-test/team-security @Armor-test/squad-search
+*.yaml @Armor-test/unit-test @Armor-test/dept-security @Armor-test/dept-data
+*.gradle @Armor-test/team-notifications @Armor-test/dept-identity
+*.go @Armor-test/dept-release @Armor-test/team-core @Armor-test/squad-performance
+*.swift @Armor-test/dept-reporting @Armor-test/dept-test @Armor-test/unit-test
+*.h @Armor-test/unit-cloud @Armor-test/team-logging @Armor-test/dept-reliability
+*.graphql @Armor-test/unit-design @Armor-test/unit-governance
+*.scala @Armor-test/squad-performance @Armor-test/unit-design @Armor-test/dept-api
+*.tsx @Armor-test/grp-payments @Armor-test/team-logging @Armor-test/unit-test
+*.scss @Armor-test/dept-reliability @Armor-test/grp-payments
+*.json @Armor-test/grp-api @Armor-test/squad-cache @Armor-test/unit-governance
+*.tf @Armor-test/squad-performance @Armor-test/dept-logging
+*.java @Armor-test/squad-product @Armor-test/dept-ui @Armor-test/dept-automation
+*.ts @Armor-test/grp-payments @Armor-test/squad-ml @Armor-test/dept-security
+
+# Security and special files
+Dockerfile @Armor-test/devops @Armor-test/infra
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
